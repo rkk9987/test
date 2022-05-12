@@ -1,0 +1,273 @@
+*{
+padding: 0;
+margin: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+  
+}
+body{
+    overflow-x: hidden;
+}
+.navBar {
+    background: rgba(2, 0, 13, 0.9);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    height:119px;
+   width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+.navBarBox{
+    height:119px;
+    max-width:1440px;
+    margin: 0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 61px;
+}
+.navBarContainer {
+    display: flex;
+    width: 95%;
+    /* margin: auto; */
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1291.24px;
+height :60px;
+
+}
+.logoContainer{
+    width: 13%;
+    max-width: 132px;
+}
+.companyLogo{
+    width: 100%;
+height: 53px;
+}
+.menus,.menusMobile{
+    display: flex;
+    width: 51%;
+    max-width: 508px;
+    justify-content: space-between;
+}
+.menus li,.menusMobile li{
+    list-style: none;
+    font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+/* identical to box height */
+margin-right: 5px;
+cursor: pointer;
+color: #FFFFFF;
+}
+
+.menus li:hover{
+    color: #c1c0c0;
+}
+.menusMobile li:hover{
+    color: #c1c0c0;
+}
+.searchBar{
+    background: rgba(255, 255, 255, 0.97);
+border-radius: 15px;
+width :17%;
+max-width: 250px;
+height: 36px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.searchBarContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20px;
+    margin: auto;
+    width: 80%;
+}
+a{
+    text-decoration: none !important;
+}
+.searchHere{
+    font-weight: 300;
+font-size: 15px;
+line-height: 18px;
+white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-right: 12px;
+    width: 100%;
+    outline: none;
+    border: none;
+height: 100%;
+background: inherit;
+}
+.searchLogo{
+    width: 20px;
+    height: 20px;
+}
+.accountSection,.accountSectionMobile{
+    display: flex;
+    max-width: 238px;
+    justify-content: space-between;
+    width: 24%;
+    align-items: center;
+}
+.myAccountContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.accountLogo{
+    height: 26.67px ;
+    width: 26.67px;
+}
+
+.myAccountTitle{
+    font-weight: 275;
+font-size: 19px;
+line-height: 30px;
+cursor: pointer;
+color: #FFFFFF;
+margin-left: 2px;
+}
+.myAccountTitle:hover{
+    color: #c1c0c0;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 35px;
+}
+.cartLogo{
+    width: 26.44px;
+}
+.productNumber{
+    font-size: 12px;
+    position: relative;
+    left: 29px;
+    top: -8px;
+    background: white;
+    width: 17px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.cartTitle{
+    font-weight: 275;
+font-size: 16.676px;
+line-height: 27px;
+/* identical to box height */
+
+margin-left: 2px;
+color: #FFFFFF;
+}
+.cartTitle:hover{
+    color: #c1c0c0;
+}
+
+.logoContainer,.menus,.searchBar{
+    margin-right: 10px;
+}
+.hamBurgerMenu {
+    display: none;
+}
+.navDownContainer{
+    display: none;
+}
+.navBarBoxContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+@media (max-width:1120px){
+
+    .navBarBox{
+        justify-content: unset;
+        /* margin-top: 10px; */
+        flex-direction: column;
+        height: 60px ;
+        transition: height 0.3s;
+        overflow-y: hidden;
+    }
+    .navBar {
+        height: auto;
+    }
+.navBarContainer{
+    flex-shrink: 0;
+    height: 60px;
+    overflow: hidden;
+}
+    .logoContainer{
+        width: 25%;
+    }
+    .companyLogo{
+        height: 46px;
+    margin-top: 8px;
+    }
+    .searchBar{
+        width: 38%;
+        max-width: 380px;
+    }
+
+    .productNumber{
+        
+        left: 21px;
+        top: -5px;
+        width: 12px;
+        font-size: 9px;
+        height: 13px;
+        overflow: hidden;
+     
+    }
+    .navDownContainer{
+        width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 247px;
+    /* display: none; */
+    
+    flex-shrink: 0;
+    margin: 4px 0;
+    }
+    .menusMobile li {
+        margin: 5px 0;
+    }
+    .menus,.accountSection{
+        display: none;
+    }
+    .menusMobile{
+        width: unset;
+        flex-direction: column;
+        align-items: center;
+    }
+    .accountSectionMobile{
+        flex-direction: column;
+        width: unset;
+    }
+    .myAccountTitle,.cartTitle{
+        margin-left: 2px;  
+    font-size: 15px;
+     
+    }
+    .accountLogo,.cartLogo{    
+        height: 18.67px;
+        width: 19.67px;}
+    .hamBurgerMenu {
+        display: block
+    }  
+    .hamBurgerMenu img {
+        filter: invert();
+    }    
+}

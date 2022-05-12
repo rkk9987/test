@@ -1,0 +1,287 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins';
+  margin: 0;
+  padding: 0;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+
+.productfooter{
+  max-height: 950px;
+}
+.footer {
+  background: #f1d2b6;
+  display: block;
+  position: relative;
+}
+
+
+.footer2qj{
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 18px;
+  font-family: "Poppins";
+  font-weight: 400;
+  position: relative;
+}
+
+.footer22qjs{
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 18px;
+  font-family: "Poppins";
+  font-weight: 400;
+  position: relative;
+}
+
+.footer-heading {
+  width: 100%;
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 40px;
+}
+.footer-link a,
+p {
+  width: 100%;
+  margin-bottom: 6px;
+  margin-top: 8px;
+  padding-left: 0px;
+  color: #000000;
+  display: block;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.footer-link a:hover {
+  color:#000000;
+
+}
+.footer .footer-heading1{
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 30px;
+}
+
+input[type="text"] {
+  padding: 15px;
+  margin: 10px 0 10px 0;
+  border-radius: 10px;
+  height: 46px;
+  width: 385px;
+  border: 1px solid black;
+  color: #000000;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Poppins";
+  font-weight: 400;
+  background-color: #f1d2b6;
+}
+
+.btn {
+  display: flex;
+  background: #07203f;
+  width: 385px;
+  height: 48px;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border-radius: 10px;
+  text-align: center;
+  justify-content: center;
+  color: #ffffff;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+.btn:hover{
+  color: #f1f1f1;
+}
+.footer .soicallinks22qrjs{
+  padding-top: 177px;
+}
+.footersoicalheader{
+  font-size: 24px;
+  line-height: 36px;
+  font-family: "Poppins";
+  font-weight: 300;
+  font-style: normal;
+}
+.soicallinks22qrjs  a {
+  padding: 19px;
+  color: black;
+
+}
+.hr2,
+.hr1 {
+  border: 1px solid #000000;
+  position: relative;
+  border-bottom: #000000;
+}
+.hr2{
+  top: 35vh;
+  position: relative;
+}
+.hr1{
+  top: 10px;
+}
+.footer .policy {
+  width: 100%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  justify-content: center;
+  color: #000000;
+  margin-top: 10%;
+  margin-bottom: 20px;
+}
+#sec2qjr{
+  margin-top: 100px;
+  display: flex;
+  flex-shrink: 0;
+  flex-basis: 25%;
+}
+.footersrr
+{
+  padding-left: 10%;
+}
+.footerpj{
+  padding-left: 5%;
+}
+.footerdgh{
+ padding-left: 10%;
+}
+
+@media (min-width: 300px){
+  .footer {
+    height: 100%;
+    width: 100%;
+  }
+  .footer-heading,
+  .footer-heading1{
+    overflow-y: hidden;
+  }
+}
+@media  (max-width:1440px) and (min-width:1150px){
+  input[type="text"] {
+    width: 100%;
+  }
+  .btn {
+    width: 100%;
+  }
+  .hr2{
+    top: 12vh;
+  }
+  .hr1{
+    top: 10px;
+  }
+  .footerpj{
+    padding-left: 3%;
+  }
+}
+@media  screen and (max-width:1150px){
+  input[type="text"] {
+    width: 100%;
+  }
+  .btn {
+    width: 100%;
+  }
+  .hr2{
+    position: relative;
+    top: 7.70vh;
+  }
+  .hr1{
+    top: 10px;
+  }
+  .footerpj{
+    padding-left: 2%;
+  }
+}
+
+@media screen and (max-width:957px){
+  input[type="text"] {
+    width: 100%;
+  }
+  .btn {
+    width: 100%;
+  }
+  .hr2{
+    position: relative;
+    top: 3.90vh;
+  }
+  .hr1{
+    top: 10px;
+  }
+  .footerpj{
+    padding-left: 2%;
+  }
+}
+@media screen and (max-width:768px){
+  input[type="text"] {
+    width: 100%;
+  }
+  .btn {
+    width: 100%;
+  }
+  .hr2{
+    position: relative;
+    top: 4.55vh;
+  }
+  .hr1{
+    top: 10px;
+  }
+  .footerpj{
+    padding-left: 2%;
+  }
+}
+
+
+@media screen and (max-width:575px){
+  input[type="text"] {
+    width: 75%;
+  }
+  .btn {
+    width: 75%;
+  }
+  .hr2{
+    position: relative;
+    top: 6.90vh;
+  }
+  .footerpj{
+  padding-left: -5%;
+}
+.footerdgh{
+  margin-left: -8.4%;
+ }
+ .footersrr
+ {
+   margin-left: -8.5%;
+ }
+}
+@media screen and (max-width:400px){
+  .hr2{
+    position: relative;
+    top: 4.90vh;
+  }
+  .footerpj{
+    padding-left: 0%;
+  }
+}
